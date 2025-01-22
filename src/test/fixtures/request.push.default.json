@@ -1,0 +1,27 @@
+{
+  "ref": "refs/heads/main",
+  "before": "0000000000000000000000000000000000000000",
+  "after": "1111111111111111111111111111111111111111",
+  "repository": {
+    "name": "repo",
+    "owner": {
+      "login": "test"
+    }
+  },
+  "pusher": {
+    "name": "testuser",
+    "email": "testuser@example.com"
+  },
+  "commits": [
+    {
+      "id": "1111111111111111111111111111111111111111",
+      "message": "Initial commit",
+      "timestamp": "2023-01-01T00:00:00Z",
+      "author": {
+        "name": "testuser",
+        "email": "testuser@example.com"
+      },
+      "url": "https://github.com/test/repo/commit/1111111111111111111111111111111111111111"
+    }
+  ]
+}

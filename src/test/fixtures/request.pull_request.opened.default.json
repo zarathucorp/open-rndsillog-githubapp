@@ -1,0 +1,18 @@
+{
+  "action": "opened",
+  "number": 1,
+  "pull_request": {
+    "title": "Test pull request",
+    "body": "This is a test pull request body.",
+    "user": {
+      "login": "testuser"
+    },
+    "html_url": "https://github.com/test/repo/pull/1"
+  },
+  "repository": {
+    "name": "repo",
+    "owner": {
+      "login": "test"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "action": "opened",
+  "issue": {
+    "title": "Test issue",
+    "body": "This is a test issue body.\nIt has multiple lines.",
+    "user": {
+      "login": "testuser"
+    },
+    "html_url": "https://github.com/test/repo/issues/1"
+  },
+  "repository": {
+    "name": "repo",
+    "owner": {
+      "login": "test"
+    },
+    "html_url": "https://github.com/test/repo",
+    "full_name": "test/repo"
+  }
+}

@@ -1,0 +1,43 @@
+{
+	"name": "indulgentia-github",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Indulgentia GitHub Module",
+	"author": "Changwoo Lim",
+	"license": "ISC",
+	"homepage": "https://github.com//",
+	"keywords": [
+		"probot",
+		"github",
+		"probot-app"
+	],
+	"scripts": {
+		"build": "tsc",
+		"start": "probot run ./lib/index.js",
+		"test": "vitest",
+		"test:ui": "vitest --ui"
+	},
+	"dependencies": {
+		"@azure/storage-blob": "^12.23.0-alpha.20240507.1",
+		"@supabase/supabase-js": "^2.43.1",
+		"@types/markdown-pdf": "^9.0.5",
+		"axios": "^1.7.2",
+		"dotenv": "^16.4.5",
+		"markdown-pdf": "^11.0.0",
+		"probot": "^13.0.1",
+		"uuid": "^9.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.0.0",
+		"@types/uuid": "^9.0.8",
+		"@vitest/ui": "^2.1.5",
+		"nock": "^14.0.0-beta.5",
+		"smee-client": "^2.0.0",
+		"typescript": "^5.3.3",
+		"vitest": "^2.1.5"
+	},
+	"engines": {
+		"node": ">= 18"
+	},
+	"type": "module"
+}
