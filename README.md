@@ -1,6 +1,6 @@
-# indulgentia-github
+# open-rndsillog-githubapp
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that "indulgentia-github" GitHub Module
+> A GitHub App built with [Probot](https://github.com/probot/probot) that "open-rndsillog-githubapp" GitHub Module
 
 ## Before Setup
 You need the following information:
@@ -14,9 +14,9 @@ You need the following information:
 
 ## Setup
 
-### Register indulgentia-github
+### Register open-rndsillog-githubapp
 
-1. Register your own "indulgentia-github"
+1. Register your own "open-rndsillog-githubapp"
 
 ```sh
 # Install dependencies
@@ -31,9 +31,9 @@ npm start
 ![Rndsillog Probot Setup Wizard Example](./public/rndsillog-probot-setup-wizard.svg)
 
 3. Click the Register GitHub App button.
-4. Set a unique "indulgentia-github" name.
+4. Set a unique "open-rndsillog-githubapp" name.
 5. After registering your GitHub App, you'll be redirected to install the app on any repositories. Your local .env file will be populated with values GitHub sends during the redirect.
-6. Before starting your "indulgentia-github", you must set .env (or docker env parameter) like this:
+6. Before starting your "open-rndsillog-githubapp", you must set .env (or docker env parameter) like this:
 
 ```.env
 # Azure
@@ -47,7 +47,7 @@ SUPABASE_KEY=<supabase-service_role-key>
 # API Server
 API_SERVER_URL=<indulgentia-back-URL>
 ``` 
-> **(info)** You can set "indulgentia-github" separately from "indulgentia-front" & "indulgentia-back" by fixing "open-rndsillog-network".
+> **(info)** You can set "open-rndsillog-githubapp" separately from "indulgentia-front" & "indulgentia-back" by fixing "open-rndsillog-network".
 
 7. Now you are ready to go! Please follow the instructions of "open-rndsillog-network".
 
@@ -55,15 +55,15 @@ API_SERVER_URL=<indulgentia-back-URL>
 
 ```sh
 # 1. Build container
-docker build -t indulgentia-github .
+docker build -t open-rndsillog-githubapp .
 
 # 2. Start container
-docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> indulgentia-github
+docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> open-rndsillog-githubapp
 ```
 
 ## Contributing
 
-If you have suggestions for how "indulgentia-github" could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
+If you have suggestions for how "open-rndsillog-githubapp" could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
 
 For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
